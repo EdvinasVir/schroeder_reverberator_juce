@@ -3,4 +3,4 @@ This is a schroeder reverberator vst3 plugin created using JUCE framework. The p
 
 Known bugs: 
 1. 'Clear' does not clear buffer properly
-2. After loading a plugin, an impulse appears on a signal which results in a pop
+2. After loading a plugin, a quick 'pop' can be heard
