@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="qgWk22" name="SchroederReverb" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildStandalone,buildVST3">
+  <MAINGROUP id="o39j4d" name="SchroederReverb">
+    <GROUP id="{4BC4ABC4-17ED-830D-5FFB-C1C5C7EE0CBC}" name="Source">
+      <FILE id="mM7qXV" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="eVb1fr" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ay26Oh" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="x0lSrS" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="NuKTaP" name="SchroederRev.h" compile="0" resource="0" file="Source/SchroederRev.h"/>
+      <FILE id="VBgJgv" name="SchroederRev.cpp" compile="1" resource="0"
+            file="Source/SchroederRev.cpp"/>
+      <FILE id="YHCAEi" name="FilterAllPass.cpp" compile="1" resource="0"
+            file="Source/FilterAllPass.cpp"/>
+      <FILE id="dK3b8O" name="FilterAllPass.h" compile="0" resource="0" file="Source/FilterAllPass.h"/>
+      <FILE id="bUafMq" name="FilterFeedbackComb.h" compile="0" resource="0"
+            file="Source/FilterFeedbackComb.h"/>
+      <FILE id="qLQzqG" name="FilterFeedbackComb.cpp" compile="1" resource="0"
+            file="Source/FilterFeedbackComb.cpp"/>
+      <FILE id="zFajMU" name="DryWetMixer.cpp" compile="1" resource="0" file="Source/DryWetMixer.cpp"/>
+      <FILE id="rpnZhF" name="DryWetMixer.h" compile="0" resource="0" file="Source/DryWetMixer.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SchroederReverb"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SchroederReverb"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Desktop/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
