@@ -31,7 +31,7 @@ void FilterFeedbackComb::initialise(int filterLength, int inputBlockLength)
     output = new float[samplesPerBlock];
 }
 
-float* FilterFeedbackComb::process(int filterLength, float gain, float* audioBlock, int samplesPerBlock)  //main function
+float* FilterFeedbackComb::process(int filterLength, float gain, float* audioBlock, int samplesPerBlock) 
 {
     for (int n = 0; n < samplesPerBlock; n++)  //circular buffer
     {
